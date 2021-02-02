@@ -1,0 +1,25 @@
+{
+  "name": "@cantonese/segmenter",
+  "version": "0.0.0",
+  "description": "Text segmentation for Cantonese.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cantonese/segmenter.git"
+  },
+  "type": "module",
+  "keywords": [
+    "Cantonese",
+    "segmenter",
+    "segmentation"
+  ],
+  "author": "Nathan Hammond <github.com@nathanhammond.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/cantonese/segmenter/issues"
+  },
+  "homepage": "https://github.com/cantonese/segmenter#readme"
+}
