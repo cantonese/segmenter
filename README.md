@@ -1,8 +1,14 @@
 # @cantonese/segmenter
 
-This library currently does not implement true segmentation for Cantonese. It is instead a placeholder for future work.
+This library implements basic `grapheme` and `word` segmentation for Cantonese by comparing a depth-first trie traversal of a word list to a supplied string. The trie is built from an unmodified [words.hk word list](https://words.hk/faiman/analysis/wordslist/).
+
+In the future it will use different models informed by natural language processing/computational linguistics.
 
 Implements the [proposed `Intl.Segmenter` API shape](https://github.com/tc39/proposal-intl-segmenter).
+
+## Installation
+
+`npm install --save https://github.com/cantonese/segmenter`
 
 ## Usage
 
